@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background: #ffe600;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 7px;
+  padding: 0.9em 2em;
+  transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+  background: #404040;
+  color: #ffe600;
+}
